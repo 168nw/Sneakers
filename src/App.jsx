@@ -6,9 +6,18 @@ function App() {
       <div className="overlay">
         <div className="drawer">
           <h2>Корзина</h2>
-
-          <div className="cartItem">
-            <img src="\img\sneakers\image 3.jpg'" alt="" />
+          <div className="cartItem d-flex align-center">
+            <div 
+            className="cartItemImg"
+            style={{backgroundImage: `url(img/sneakers/image_12.png)`}} >
+            </div>
+            <div className="mr-20 flex">
+            <p className="mb-5">Мужские Кроссовки Nike Air Max 270</p>
+            <b>12 999 руб.</b>
+            </div>
+            <div className="btnCart">
+            <img src="\img\btn-delite.svg" alt="btn-dealite" />
+            </div>
           </div>
         </div>
       </div>

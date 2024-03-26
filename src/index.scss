@@ -102,6 +102,40 @@ header {
   }
 }
 
+.cartItem {
+border: 1px solid #f3f3f3;
+border-radius: 20px;
+overflow: hidden;
+padding: 20px;
+
+.cartItemImg {
+  height: 70px;
+  width: 70px;
+  background-size: contain;
+  background-position: 0 -7px;
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+
+  p {
+    font-size: 16px;
+  }
+
+  b{
+    font-size: 15px;
+  }
+
+  .btnCart {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.2s ease-in-out;
+
+    &:hover {
+      opacity: 1.25;
+    }
+  }
+}
+
 .button {
   background-color: #FFFFFF;
   border: 1px solid #f2f2f2;
@@ -109,6 +143,4 @@ header {
   border-radius: 8px;
   height: 32px;
   width: 32px;
-
-
 }
