@@ -42,6 +42,8 @@ body {
   z-index: 1;
 
   .drawer {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     width: 420px;
     right: 0;
